@@ -17,6 +17,7 @@
 			body{
 				background-image: url("");
 				background-color: #b3d9ff;
+				padding: 3%;
 			}
 			#div{
 				padding: 20px;

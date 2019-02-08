@@ -16,6 +16,7 @@
 				background-repeat: no repeat;
 				background-size: 100%,100%;
 				background-color: #b3d9ff;
+				padding: 3%;
 			}
 			a{
 				text-decoration: none;
@@ -62,7 +63,7 @@
 								<td><h3 class="h3"><input required="required" type="text" name="age" value="${list.age }"></h3></td>
 							</tr>
 							<tr>
-								<td><a href="OperateServlet?operate=uProfile&name=${list.name }"><h3 class="h3 text-center"><i class='fas fa-arrow-circle-left text-dark'></i></h3></a></td>
+								<td><a class="text-dark" href="OperateServlet?operate=uProfile&name=${list.name }"><h3 class="h3 text-center"><i class='fas fa-arrow-circle-left text-dark'></i> BACK</h3></a></td>
 								<td><h3 class="h3"><button><input type="submit" value="Update"></button></h3></td>
 							</tr>
 						</table>

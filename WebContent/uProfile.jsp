@@ -16,6 +16,7 @@
 				background-repeat: no repeat;
 				background-size: 100%,100%;
 				background-color: #b3d9ff;
+				padding: 3%;
 			}
 			a{
 				text-decoration: none;
@@ -82,6 +83,10 @@
 							<tr>
 								<th><h3 class="h3 text-center"><i class='fas fa-donate'></i></h3></th>
 								<td><h3 class="h3"><a href="OperateServlet?operate=transferCredit&name=${list.name }">Transfer Credit</a></h3></td>
+							</tr>
+							<tr>
+								<td><a class="text-dark" href="OperateServlet?operate=showUser"><h3 class="h3 text-center"><i class='fas fa-arrow-circle-left text-dark'></i> BACK</h3></a></td>
+								<td></td>
 							</tr>
 						</table>
 					</div>

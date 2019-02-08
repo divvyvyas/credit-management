@@ -16,6 +16,7 @@
 				background-repeat: no repeat;
 				background-size: 100%,auto;
 				background-color: #b3d9ff;
+				padding: 3%;
 			}
 			a{
 				text-decoration: none;
@@ -49,7 +50,7 @@
 								<tr><td><h3 class="h3">From:</h3></td><td><h3 class="h3"><input readonly="readonly" type="text" name="fname" value="${list.name }"></h3></td></tr>
 								<tr><td><h3 class="h3">To:</h3></td><td><h3 class="h3"><input required="required" placeholder="Enter Full Name" type="text" name="tname"></h3></td></tr>
 								<tr><td><h3 class="h3">Amount:</h3></td><td><h3 class="h3"><input required="required" placeholder="Enter Amount" type="number" name="amount"></h3></td></tr>
-								<tr><td><a href="OperateServlet?operate=uProfile&name=${list.name }"><h3 class="h3 text-center"><i class='fas fa-arrow-circle-left text-dark'></i></h3></a></td><td><h3 class="h3 text-left"><input type="submit" class="input" value="Send"></h3></td></tr>
+								<tr><td><a class="text-dark" href="OperateServlet?operate=uProfile&name=${list.name }"><h3 class="h3 text-center"><i class='fas fa-arrow-circle-left text-dark'></i> BACK</h3></a></td><td><h3 class="h3 text-left"><input type="submit" class="input" value="Send"></h3></td></tr>
 							</table>
 						</div>
 						<div class="col-xl col-md col-lg"></div>

@@ -12,6 +12,7 @@
 		<style>
 			body{
 					background-color: #b3d9ff;
+					padding: 3%;
 				}
 			input{
 				border: none;
@@ -56,7 +57,7 @@
 								<td><h3 class="h3"><input required="required" type="text" placeholder="Credit" name="credit"></h3></td>
 							</tr>
 							<tr>
-								<td><h3 class="h3 text-center"><a href="index.jsp"><i class='fas fa-arrow-circle-left text-dark'></i></a></h3></td>
+								<td><h3 class="h3 text-center"><a class="text-dark" href="index.jsp"><i class='fas fa-arrow-circle-left text-dark'></i>BACK</a></h3></td>
 								<td><h3 class="h3"><input class="input" type="submit"></h3></td>
 							</tr>
 						</table>

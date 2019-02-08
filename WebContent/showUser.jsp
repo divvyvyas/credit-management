@@ -18,6 +18,7 @@
 			body{
 				background-image: url("");
 				background-color: #b3d9ff;
+				padding: 3%;
 			}
 			.table-align{
 				margin: auto;
@@ -26,7 +27,7 @@
 		</style>
 	</head>
 	<body>
-		<div  class="container border">
+		<div  class="container">
 			<div class="row">
 				<div class="col-sm col-lg"></div>
 				<div class="col-sm-6 col-lg-4">
@@ -60,6 +61,11 @@
 									<td><h3 class="h3">${list.email }</h3></td>
 								</tr>
 							</c:forEach>
+							<tr>
+								<td></td>
+								<td><a class="text-dark" href="index.jsp"><h3 class="h3 text-center"><i class='fas fa-arrow-circle-left text-dark'></i> BACK</h3></a></td>
+								<td></td>
+							</tr>
 						</tbody>
 					</table>
 				</div>

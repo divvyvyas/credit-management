@@ -15,6 +15,7 @@
 		<style>
 			body{
 				background-color: #b3d9ff;
+				padding: 3%;
 			}
 			a{
 				text-decoration: none;
@@ -47,6 +48,9 @@
 									<td><h3 class="h3">${list.dt }</h3></td>
 								</tr>
 							</c:forEach>
+							<tr>
+								<td><h3 class="h3 text-center"><a class="text-dark" href="index.jsp"><i class='fas fa-arrow-circle-left text-dark'></i> BACK</a></h3></td>
+							</tr>
 						</tbody>
 					</table>
 				</div>
